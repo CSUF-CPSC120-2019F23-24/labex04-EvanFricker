@@ -13,7 +13,7 @@ int main()
   std::cin >> num1 >> num2 >> num3;
 
   //calculate the average of the numbers
-  average = (num1 + num2 + num3) / NUM_INTS;
+  average = (num1 + num2 + num3) / double(NUM_INTS);
 
   // display the average, including the decimal portion
   std::cout << "The average of " << num1 << ", " << num2 << ", and " << num3
